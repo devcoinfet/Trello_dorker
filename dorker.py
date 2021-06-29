@@ -83,3 +83,4 @@ if links_extracted:
    outfile_writer = open("crawled_links.txt","a")
    for links in links_extracted:
        outfile_writer.write(links+"\n")
+   outfile_writer.close()
